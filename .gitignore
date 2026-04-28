@@ -1,0 +1,38 @@
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Django / local DB / local brokers
+db.sqlite3
+backend/db.sqlite3
+celery_broker.sqlite3
+celery_results.sqlite3
+backend/celery_broker.sqlite3
+backend/celery_results.sqlite3
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
